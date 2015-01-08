@@ -1,0 +1,85 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 18:43:39 Jun 21, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 8:07:58 Mar 31, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+body {
+	margin: 8px;
+	background-color: #dff0eb;
+}
+
+a {
+	text-decoration: none;
+	color: #34345C;
+}
+
+h1, h2 {
+	background: #8d0000;
+	text-align: left;
+	color: #fff;
+	margin: 0px;
+	padding: 0;
+	vertical-align: bottom;
+}
+
+h1 {
+	margin-top: 0px;
+	padding-left: 1px;
+	font-size: 150%;
+}
+
+h2 {
+	font-size: 100%;
+	margin-top: 1em;
+	padding-top: 1px;
+}
+
+.plus {
+	float: right;
+	font-size: 8px;
+	font-weight: normal;
+	padding: 1px 4px 2px 4px;
+	margin: 0px 1px;
+	background: #c86363;
+	color: #000;
+	border: 1px solid #621411;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.plus:hover {
+	background: #8d0000;
+	border: 1px solid #c3605f;
+	color: #fff;
+}
+
+ul {
+	list-style: none; 
+	background-color: #88b0a1;
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	margin: 0px;
+	text-indent: 1px;
+	color: #000;
+}
+
+li:hover {
+	background: #b7d0c7;
+}
+
+li a {
+	display: block;
+	width: 100%;
+	color: #000;
+}

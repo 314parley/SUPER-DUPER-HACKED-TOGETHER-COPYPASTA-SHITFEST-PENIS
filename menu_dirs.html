@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>711chan Navigation</title>
+	<link rel="stylesheet" type="text/css" href="http://www.711chan.org/css/menu_global.css" />
+				<link rel="stylesheet" type="text/css" href="/css/site_711chan.css" title="711chan" />
+			<link rel="stylesheet" type="text/css" href="/css/sitemenu_711chan.css" title="711chan" />
+				<link rel="alternate stylesheet" type="text/css" href="/css/site_futaba.css" title="Futaba" />
+			<link rel="alternate stylesheet" type="text/css" href="/css/sitemenu_futaba.css" title="Futaba" />
+	
+
+
+<script type="text/javascript"><!--
+			var style_cookie_site = "kustyle_site";
+		//--></script>
+<link rel="shortcut icon" href="/favicon.ico" />
+<script type="text/javascript" src="/lib/javascript/gettext.js"></script>
+<script type="text/javascript" src="/lib/javascript/menu.js"></script>
+<script type="text/javascript" src="/lib/javascript/kusaba.js"></script>
+<script type="text/javascript"><!--
+
+
+
+function showstyleswitcher() {
+		var switcher = document.getElementById('sitestyles');
+		switcher.innerHTML = 'Styles:[<a href="#" onclick="javascript:set_stylesheet(\'711chan\', false, true);reloadmain();" style="display: inline;" target="_self">7</a>] [<a href="#" onclick="javascript:set_stylesheet(\'Futaba\', false, true);reloadmain();" style="display: inline;" target="_self">F</a>]';
+
+}
+
+function toggle(button, area) {
+	var tog=document.getElementById(area);
+	if(tog.style.display)	{
+		tog.style.display="";
+	} else {
+		tog.style.display="none";
+	}
+	button.innerHTML=(tog.style.display)?'+':'&minus;';
+	set_cookie('nav_show_'+area, tog.style.display?'0':'1', 30);
+}
+
+function removeframes() {
+	var boardlinks = document.getElementsByTagName("a");
+	for(var i=0;i<boardlinks.length;i++) if(boardlinks[i].className == "boardlink") boardlinks[i].target = "_top";
+
+	document.getElementById("removeframes").innerHTML = 'Frames removed.';
+
+	return false;
+}
+function reloadmain() {
+	if (parent.main) {
+		parent.main.location.reload();
+	}
+}
+
+function hidedirs() {
+	set_cookie('tcshowdirs', '', 30);
+			window.location = '/menu.html';
+	
+}
+function showdirs() {
+	set_cookie('tcshowdirs', 'yes', 30);
+			window.location = '/menu_dirs.html';
+	
+}
+//--></script>
+<base target="main" />
+</head>
+<body>
+<h1>711chan</h1>
+<ul>
+<li><a href="/" target="_top">Front Page</a></li>
+	<li id="sitestyles"><a onclick="javascript:showstyleswitcher();" href="#" target="_self">[Site Styles]</a></li>
+
+	<li><a onclick="javascript:hidedirs();" href="menu.html" target="_self">[Hide Directories]</a></li>
+
+	<li id="removeframes"><a href="#" onclick="javascript:return removeframes();" target="_self">[Remove Frames]</a></li>
+
+</ul>
+<!--
+<center>
+<iframe src="" style="border: 0; background-image: url('http://finalboss.org/h/r.gif'); padding: 1px; width: 200px; height: 90px;"></iframe>
+</center>
+-->
+
+		
+					<h2>
+		
+					<span class="plus" onclick="toggle(this, 'as');" title="Click to show/hide">&minus;</span>&nbsp;
+		
+		Awesome Shit</h2>
+					<div id="as">
+		
+		<ul>
+									<li><a href="http://www.711chan.org/711/" class="boardlink">
+									/711/ - 
+				
+				Food, Drink, and Site Discussion
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/b/" class="boardlink pop">
+									/b/ - 
+				
+				Shut up Sean
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/h/" class="boardlink">
+									/h/ - 
+				
+				h
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/in/" class="boardlink pop">
+									/in/ - 
+				
+				IS/i/S
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/nig/" class="boardlink">
+									/nig/ - 
+				
+				[nig]s 4 lyfe
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/smoke/" class="boardlink">
+									/smoke/ - 
+				
+				Drugs
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/webm/" class="boardlink">
+									/webm/ - 
+				
+				WebM master race
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/quinn/" class="boardlink pop">
+									/quinn/ - 
+				
+				GAMERGATE
+				
+				</a></li>
+			
+		
+		</ul>
+					</div>
+		
+		
+					<h2>
+		
+					<span class="plus" onclick="toggle(this, 'img');" title="Click to show/hide">&minus;</span>&nbsp;
+		
+		Imageboards</h2>
+					<div id="img">
+		
+		<ul>
+									<li><a href="http://www.711chan.org/gif/" class="boardlink">
+									/gif/ - 
+				
+				Animated GIF
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/id/" class="boardlink">
+									/id/ - 
+				
+				Intellectual Discussion
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/jb/" class="boardlink">
+									/jb/ - 
+				
+				Justin Bieber
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/po/" class="boardlink">
+									/po/ - 
+				
+				Pictures Only
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/RAGE/" class="boardlink">
+									/RAGE/ - 
+				
+				FUCKING SHIT COCKFUCKING BULLSHIT
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/x/" class="boardlink">
+									/x/ - 
+				
+				Paranormal
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/sp/" class="boardlink">
+									/sp/ - 
+				
+				cornhuskers more like corn suckers
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/fit/" class="boardlink">
+									/fit/ - 
+				
+				/Fatass/
+				
+				</a></li>
+			
+		
+		</ul>
+					</div>
+		
+		
+					<h2>
+		
+					<span class="plus" onclick="toggle(this, 'np');" title="Click to show/hide">&minus;</span>&nbsp;
+		
+		not porn</h2>
+					<div id="np">
+		
+		<ul>
+									<li><a href="http://www.711chan.org/ass/" class="boardlink">
+									/ass/ - 
+				
+				dat ass
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/cake/" class="boardlink">
+									/cake/ - 
+				
+				Delicious
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/mens/" class="boardlink">
+									/mens/ - 
+				
+				Sexy Beautiful Men
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/tr/" class="boardlink">
+									/tr/ - 
+				
+				Delicious Traps
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/womens/" class="boardlink">
+									/womens/ - 
+				
+				Sexy Beautiful Women
+				
+				</a></li>
+			
+		
+		</ul>
+					</div>
+		
+		
+					<h2>
+		
+					<span class="plus" onclick="toggle(this, 'aca');" title="Click to show/hide">&minus;</span>&nbsp;
+		
+		Academia</h2>
+					<div id="aca">
+		
+		<ul>
+									<li><a href="http://www.711chan.org/g/" class="boardlink">
+									/g/ - 
+				
+				Technology
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/speak/" class="boardlink">
+									/speak/ - 
+				
+				Languages
+				
+				</a></li>
+							<li><a href="http://www.711chan.org/pol/" class="boardlink">
+									/pol/ - 
+				
+				Politics &amp; News
+				
+				</a></li>
+			
+		
+		</ul>
+					</div>
+		
+	
+
+			<h2>
+	
+	&nbsp;IRC</h2>
+	<ul>
+		<li>irc.711chan.org #711chan</li>
+	</ul>
+
+</body>
+</html>
+
+

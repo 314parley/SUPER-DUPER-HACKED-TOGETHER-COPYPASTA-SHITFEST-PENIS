@@ -1,0 +1,190 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 4:26:38 Jun 17, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 8:09:04 Mar 31, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+html, body {
+	font-size:12pt;
+	background: #dff0eb;
+	color:#000000;
+	font-family:sans-serif;
+}
+a {
+	background:inherit;
+	color: #8d0000;
+
+	text-decoration:none;
+}
+a:visited {
+	background:inherit;
+	color: #8d0000;
+	text-decoration:none;
+}
+a:hover {
+	color:#DD0000;
+	background:inherit;
+}
+.filesize a {
+	text-decoration:underline;
+}
+.filesize a:visited {
+	text-decoration:underline;
+}
+.adminbar {
+	text-align:right;
+	background:inherit;
+	clear:both;
+	float:right;
+}
+.logo {
+	clear:both;
+	text-align:center;
+	background:inherit;
+	font-size:24pt;
+	color: #8d0000;
+
+	width:100%;
+}
+.replymode {
+	background:#1b3431;
+	color:#FFFFFF;
+	width:100%;
+}
+.catalogmode {
+	background:#1b3431;
+	color:#FFFFFF;
+	width:100%;
+}
+.postarea {
+	background:inherit;
+}
+.rules {
+	width: 468px;
+	font-size: 10px;
+}
+.rules li {
+	margin-left: 1em;
+}
+.postblock {
+	background: #88b0a1;
+	color:#000000;
+	font-weight:800;
+}
+.footer {
+	text-align:center;
+	font-size:10px;
+}
+.passvalid {
+	background: #88b0a1;
+	text-align:center;
+	width:100%;
+	color:#ffffff;
+}
+.dellist {
+	background:inherit;
+	text-align:center;
+}
+.delbuttons {
+	background:inherit;
+	text-align:center;
+	padding-bottom:4px;
+}
+.managehead {
+	background:#0F8FE1;
+	color:#000000;
+	font-size:14px;
+	padding:0px;
+}
+.postlists {
+	background:#FFFFFF;
+	width:100%;
+	padding:0px;
+	color:#000000;
+}
+.row1 {
+	background:#9AD2F6;
+	font-size:12px;
+	color:#000000;
+}
+.row2 {
+	background:#FFFFFF;
+	font-size:12px;
+	color:#000000;
+}
+.unkfunc {
+	color:#789922;
+}
+.filesize {
+	font-size:12px;
+	text-decoration:underline;
+	padding-left:3em;
+}
+.filetitle {
+	background:inherit;
+	font-size:18px;
+	color: #1b3431;
+	font-weight:800;
+}
+.postername {
+	background:inherit;
+	font-size:12px;
+	color: #8d0000;
+
+	font-weight:800;
+}
+.oldpost {
+	background:inherit;
+	font-size:18px;
+	color: #1b3431;
+	font-weight:800;
+}
+.omittedposts {
+	background:inherit;
+	font-size:18px;
+	color:#070707;
+	font-weight:800;
+}
+.reply {
+	background: #b7d0c7;
+	color:#000000;
+}
+.replyhl {
+	background: #b7d0c7;
+	color: #000000;
+}
+.doubledash {
+ 	vertical-align:top;
+	clear:both;
+	float:left;
+}
+.replytitle {
+	background:inherit;
+	font-size:18px;
+	color: #1b3431;
+	font-weight:800;
+}
+.commentpostername {
+	background:inherit;
+	font-size:12px;
+	color: #8d0000;
+	font-weight:800;
+}
+.thumbnailmsg {
+	background:inherit;
+	font-size:9px;
+	color:#000000;
+}
+
+.watchedthreads, #watchedthreads {
+	background-color: #b7d0c7;
+	border: 1px solid #88b0a1 !important;
+	border-top: 0px none !important;
+}

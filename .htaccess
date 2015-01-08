@@ -1,0 +1,66 @@
+#DirectoryIndex index.php
+#rip default kusaba x index page
+#DirectoryIndex kusaba.php
+AddCharset UTF-8 .html
+AddCharset UTF-8 .php
+AddType video/webm .webm
+
+FileETag None
+
+<ifModule mod_headers.c>
+    Header set Access-Control-Allow-Origin: *
+</ifModule>
+
+  ExpiresActive On
+  ExpiresDefault "access plus 1 seconds"
+  ExpiresByType image/x-icon "access plus 2592000 seconds"
+  ExpiresByType image/jpeg "access plus 2592000 seconds"
+  ExpiresByType image/png "access plus 2592000 seconds"
+  ExpiresByType image/gif "access plus 2592000 seconds"
+  ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
+  ExpiresByType text/css "access plus 604800 seconds"
+  ExpiresByType text/javascript "access plus 216000 seconds"
+  ExpiresByType application/x-javascript "access plus 216000 seconds"
+  ExpiresByType text/html "access plus 600 seconds"
+  ExpiresByType application/xhtml+xml "access plus 600 seconds"
+
+<IfModule mod_headers.c>
+<Files *.html>
+  FileETag None
+  Header unset ETag
+  Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+  Header set Pragma "no-cache"
+  Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+#Header add Expires "Mon, 26 Jul 1997 05:00:00 GMT"
+#Header add Pragma "no-cache"
+#Header add Cache-Control "max-age=0; must-revalidate; no-cache"
+#Header set Expires "0"
+#Header unset Vary
+</Files>
+</IfModule>
+<Files spam.txt>
+order allow,deny
+deny from all
+</Files>
+php_value upload_max_filesize 100M
+php_value post_max_size 100M
+<Files ~ "\.(ini)$">
+order allow,deny
+deny from all
+</Files>
+
+<Files spam.txt>
+order allow,deny
+deny from all
+</Files>
+<Files modlogrss.xml>
+order allow,deny
+deny from all
+</Files>
+<Files recaptchalib.php>
+order allow,deny
+deny from all
+</Files>
+
+# Warning: Contents below this line may be erased, please place all .htaccess rules above this line
+## !KU_BANS:

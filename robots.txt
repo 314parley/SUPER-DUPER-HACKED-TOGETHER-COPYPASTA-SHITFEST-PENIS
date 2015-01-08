@@ -1,0 +1,7 @@
+# Wayback, just in case I need files. if they search for boards they arent supposed to, I'll block them again
+User-agent: ia_archiver
+Disallow:
+
+#get the fuck out of here.
+User-agent: *
+Disallow: /

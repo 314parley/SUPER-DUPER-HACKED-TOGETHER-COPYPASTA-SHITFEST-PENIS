@@ -1,0 +1,29 @@
+#ignoring this for ovbious reasons
+config.php
+#same for the modlog.
+modlogrss.xml
+#boards need to be removed, because well...
+/711/
+/b/
+/nig/
+/webm/
+/in/
+/smoke/
+/h/
+/quinn/
+/gif/
+/id/
+/po/
+/jb/
+/x/
+/RAGE/
+/sp/
+/fit/
+/mens/
+/cake/
+/tr/
+/womens/
+/ass/
+/g/
+/speak/
+/pol/
